@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#main_container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.post {
+    margin: 20px;
+    width: 250px;
+    height: auto;
+    box-shadow: 10px 10px 15px #808080;
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+h2 {
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center
+}
+
+p {
+    padding: 0px 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border-width: 1;
+}
+
+#add_post {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.delete {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    background-color: rgb(245, 116, 116);
+    color: rgb(247, 227, 227);
+    border: none;
+    border-radius: 10px;
+}
+
+#add_post:hover {
+    background-color: aqua;
+    color: black;
+}
+
+footer:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+h1:hover {
+    color: rgb(9, 237, 237);
+}
+
+.delete:hover {
+    background-color: rgb(86, 254, 254);
+    color: black;
+}
+
+.post:hover {
+    background-color: rgb(232, 239, 245);
+}
+
+input,
+textarea:hover {
+    color: blue;
+}
